@@ -1,0 +1,40 @@
+.card {
+  flex: 1;
+  margin: 10px;
+  cursor: pointer;
+}
+.card--selectedRed {
+  border-top: 10px solid red;
+}
+.card--selectedGreen {
+  border-top: 10px solid greenyellow;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.card__Red {
+  border-top: 20px solid red;
+}
+.card__cases {
+  margin-top: 20px;
+
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.cases--Red {
+  color: #cc1034;
+}
+.cases--Green {
+  color: greenyellow;
+}
+.card__totalCases {
+  margin-top: 20px !important;
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  font-size: 14px !important;
+}
